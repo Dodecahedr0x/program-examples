@@ -1,6 +1,6 @@
 # Program Examples
 
-## Onchain program examples for :anchor: Anchor :crab: Native Rust, [TS] TypeScript  and :snake: Python
+## Onchain program examples for :anchor: Anchor :crab: Native Rust, [TS] TypeScript and :snake: Python
 
 This repo contains Solana onchain programs (referred to as 'Smart Contracts' in other blockchains).
 
@@ -119,7 +119,7 @@ How to store state that changes size in Solana.
 
 [Create a token on Solana with a token symbol and icon.](./tokens/create-token/README.md)
 
-[anchor](./tokens/create-token/anchor) [native](./tokens/create-token/native)
+[anchor](./tokens/create-token/anchor) [native](./tokens/create-token/native) [steel](./tokens/create-token/steel)
 
 ### Minting NFTS
 

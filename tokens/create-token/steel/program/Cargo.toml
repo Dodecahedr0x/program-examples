@@ -1,0 +1,22 @@
+[package]
+name = "create-token-program"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+create-token-api = { workspace = true }
+spl-token = { workspace = true }
+spl-associated-token-account = { workspace = true }
+mpl-token-metadata = { workspace = true }
+solana-program = { workspace = true }
+steel = { workspace = true }
+
+[dev-dependencies]
+bs64 = "0.1.2"
+rand = "0.8.5"
+solana-program-test = "^1.14"
+solana-sdk = "^1.14"
+tokio = { version = "1.35", features = ["full"] }
